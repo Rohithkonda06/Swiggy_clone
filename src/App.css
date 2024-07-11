@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topBarSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+/*item Section*/
+.itemSection{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+}
+.gallery{
+    width: 200px;
+    padding: 20px;
+    margin: 8px;
+}
+.gallery img{
+    width: 150%;
+}
+/* landing page */
+
+.landingSection{
+    padding: 0 80px;
+}
+.logo-swiggy{
+    width: 80px;
+}
+.logo-swiggy:hower{
+    transform-origin: 0 0;
+}
